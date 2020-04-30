@@ -1,0 +1,137 @@
+html::selection {
+    color: none;
+    background: none;
+}
+
+.titlebar{
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.window-appicon{
+    width:auto;
+    height:auto;
+}
+.window-title{
+    font-size: 15px;
+    color: white;
+}
+
+#container {
+    float: left;
+    width: 5%;
+    height: 100%;
+    background-color: #2f2f2f;
+}
+
+#navbar {
+    margin-top: 70px;
+}
+.image{
+    width: 35px;
+    height: 35px;
+    
+    padding-left: 10px;
+    padding-top: 40px;
+    display: inline-block;
+    background:none;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#task-container{
+    margin: auto;
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 85%;
+    height: 90%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#create-task-form{
+    display: none;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.dropdown {
+    background-color: #585858;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    outline: none;
+    width: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 30px;
+    font-size:20px;
+}
+
+input {
+    background-color: #585858;
+    border-color: #797979;
+    outline:none;
+    color: white;
+    border-radius: 5px;
+}
+
+#create-task {
+    
+}
+
+#profilePanel {
+    display: inline-block;
+}
+
+#taskPanel{
+    display: none;
+}
+
+#checkoutPanel{
+    display: none;
+}
+
+#proxiesPanel{
+    display: none;
+}
+
+#tasksList{
+    display: inline;
+}
+
+.createButton {
+    background-color: #305099;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0px solid;
+    outline: none;
+
+    position: absolute;
+    left: 140px;
+    bottom: 70px;
+}
