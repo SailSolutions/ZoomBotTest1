@@ -11,14 +11,14 @@ function createWindow() {
         fullscreenable: false,
         resizable: false,
         frame: false,
-        transparent: true,
+        transparent: false,
         webPreferences: {
             nodeIntegration: true
         }
     })
 
     // and load the index.html of the app.
-    win.loadFile('newWindow.html')
+    win.loadFile('index.html')
 }
 
 app.whenReady().then(createWindow)
