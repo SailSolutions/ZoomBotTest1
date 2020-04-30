@@ -28,14 +28,13 @@ html::selection {
 #navbar {
     margin-top: 70px;
 }
-.image{
+.image {
     width: 35px;
     height: 35px;
-    
-    padding-left: 10px;
+    padding-left: 9px;
     padding-top: 40px;
     display: inline-block;
-    background:none;
+    background: none;
 }
 
 .icon{
