@@ -7,6 +7,7 @@ function createWindow() {
     let win = new BrowserWindow({
         width: 1100,
         height: 800,
+        backgroundColor: #2f2f2f,
         maximizable: false,
         fullscreenable: false,
         resizable: false,
