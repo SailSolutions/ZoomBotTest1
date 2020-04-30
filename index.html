@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="logo">
+            <img class="icon" src="./Images/ZoomBotLogo.png" />
+        </div>
+        <div id="navbar">
+            <img class="image" id="profile" />
+            <img src="./Images/tasks.png" class="image" id="tasks" />
+            <img src="./Images/sail.png" class="image" id="checkout" />
+            <img src="./Images/proxies.png" class="image" id="proxies" />
+            <img src="./Images/discord.png" class="image" />
+        </div>
+    </div>
+    <div id="task-container">
+        <form id="create-task-form">
+            <h1>Create Task</h1>
+            <label>Select Site</label>
+            <select class="dropdown">
+                <option value="kith">Kith</option>
+                <option value="bape">Bape</option>
+                <option value="dsm">DSM Eflash US</option>
+            </select>
+            <br />
+            <br />
+            <label>Product URL: </label>
+            <input type="url" />
+            <br />
+            <br />
+            <label>Variant: </label>
+            <input type="number" />
+            <br />
+            <br />
+            <label>Size: </label>
+            <input type="number" />
+            <br />
+            <br />
+            <label>Timeout(ms): </label>
+            <input type="number" />
+            <br />
+            <br />
+            <label>Profile</label>
+            <select class="dropdown">
+                <option>profile 1</option>
+                <option>profile 2</option>
+                <option>profile 3</option>
+            </select>
+            <br />
+            <br />
+            <button type="button" id="createtask">Create Task</button>
+        </form>
+        <div id="profilePanel">
+            <h1>Profiles</h1>
+            <button class="createButton" id="">Create Profile</button>
+        </div>
+        <div id="taskPanel">
+            <h1>Tasks</h1>
+            <br />
+            <div id="tasksList">
+                <h2 style="float: left;">ExampleTaskURL</h2>
+                <h2 style="float: right;">Size:</h2>
+                <h2 style="float: right;">Variant:</h2>
+            </div>
+            <button class="createButton" id="create-task">Create Task</button>
+        </div>
+        <div id="checkoutPanel">
+            <h1>Checkout</h1>
+            <button class="createButton" id="">Create Task</button>
+        </div>
+        <div id="proxiesPanel">
+            <h1>Proxies</h1>
+            <button class="createButton" id="">Create Task</button>
+        </div>
+    </div>
+    <script>
+        require('./titlebar.js');
+        require('./buttons.js');
+    </script>
+</body>
+</html>
